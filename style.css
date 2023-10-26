@@ -264,6 +264,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     gap: 1vw;
+    position: relative;
 }
 #calen{
     margin-left: 30px;
@@ -279,13 +280,15 @@ nav{
     color: #b2afaf;
 }
 #arr{
-    margin-top: 20px;
+    bottom: 30px;
+    right: 10px;
+   position: absolute;
     font-size: 1.5vw;
     color: #7f7979;
 }
 .percentage{
     width: 1208px;
-   height: 200px;
+   height: 170px;
     /* border: 2px solid purple; */
     display: flex;
     justify-content:space-evenly;
@@ -583,25 +586,18 @@ nav{
 
 .floor_1{
     width: 100%;
-    height: 650px;
+    height: 500px;
     border: 2px solid black;
 }
 .floor_2{
+    margin-top: 20px;
     width: 100%;
-    height: 600px;
+    height: 500px;
     border: 2px solid black;
-}
-.div_content{
-    height: 470px;
-    /* border: 2px solid black; */
-    /* gap: 10px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 .floor_3{
     width: 100%;
-    height: 650px;
+    height: 550px;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
@@ -609,7 +605,7 @@ nav{
 }
 .section_1{
     width: 600px;
-    height: 580px;
+    height: 500px;
     /* border: 2px solid blue; */
     background-color: white;
     border-radius: 10px;
@@ -624,6 +620,14 @@ nav{
     text-align: center;
     justify-content:space-between;
 }
+.div_content{
+    height: 400px;
+    /* border: 2px solid black; */
+    /* gap: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .act_heading{
     font-size: 22px;
     color: #20033a;
@@ -634,7 +638,7 @@ nav{
 }
 .sec_2{
     margin-top: 20px;
-    height: 80px;
+    height: 35px;
     /* border: 2px solid blue; */
     display: flex;
     align-items: center;
@@ -644,21 +648,21 @@ nav{
 }
 .img_con{
     /* border: 2px solid black; */
-    height: 80px;
+    height: 75px;
     width: 450px;
     display: flex;
     align-items: center;
     text-align: center;
 }
 .image_circle1{
-    height: 80px;
-    width: 84px;
+    height: 70px;
+    width: 75px;
     border: 3px solid blueviolet;
     border-radius: 50%;
 }
 .gir_1{
-    height:76px;
-    width: 80px;
+    height:65.2px;
+    width: 70px;
     border-radius: 50%;
 }
 .gir1_content{
@@ -668,16 +672,16 @@ nav{
     text-align: justify;
 }
 .gir_1para{
-    font-size: 17px;
+    font-size: 14px;
     color: grey;
 }
 .gir_1para2{
-    font-size:22px;
+    font-size:16px;
 }
 .arr_div{
-    border: 2.5px solid grey;
-    height: 55px;
-    width: 65px;
+    border: 2.5px solid #b4a7a7;
+    height: 40px;
+    width: 48px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -685,14 +689,14 @@ nav{
     position: relative;
 }
 #greater_arrow{
-    color: grey;
+    color: #b4a7a7;
     position: absolute;
-    left: 18px;
+    left: 12px;
     font-size: 25px;
 }
 .section_2{
     width: 500px;
-    height: 580px;
+    height: 500px;
     /* border: 2px solid blue; */
     background-color: white;
     border-radius: 10px;
@@ -708,14 +712,14 @@ nav{
     margin-left: 32px;
     height: 50px;
     color: #20033a;
-    font-size: 25px;
+    font-size: 22px;
     /* font-weight: 600; */
 }
 .div_content2{
     margin-top: 20px;
     /* margin-left: 30px; */
     width: 500px;
-    height: 450px;
+    height: 400px;
     /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
@@ -725,7 +729,7 @@ nav{
 }
 .map1{
     width: 450px;
-    height: 130px;
+    height: 110px;
     border: 1px solid #848484;
     /* box-shadow: 2px 2px 15px gray; */
     border-radius: 10px;
@@ -735,10 +739,12 @@ nav{
     margin-left: 10px;
     margin-top: 10px;
     /* border: 2px solid brown; */
-    height: 110px;
+    height: 90px;
     width: 430px;
 }
 .div1_order{
+    align-items: center;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid blue; */
@@ -746,7 +752,7 @@ nav{
 .para_1{
     color: #20033a;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
 }
 #dots{
     color: #bdb7b7;
@@ -755,7 +761,7 @@ nav{
 .div2_order{
     display: flex;
     align-items: center;
-    height: 25px;
+    height: 20px;
     /* border: 2px solid blue; */
     gap: 5px;
 }
@@ -791,7 +797,7 @@ nav{
 #car{
     position: absolute;
     top: 5px;
-    right: 7px;
+    right: 5px;
     color: white;
 }
 .radius5{
@@ -808,7 +814,7 @@ nav{
     border-radius: 50%;
 }
 .div3_order{
-    height: 20px;
+    height: 15px;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
@@ -823,7 +829,7 @@ nav{
     font-size: 10px;
 }
 .div4_order{
-    height: 30px;
+    height: 20px;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
@@ -841,7 +847,7 @@ nav{
 
 .map2{
     width: 450px;
-    height: 130px;
+    height: 110px;
     border: 1px solid #848484;
     /* box-shadow: 2px 2px 15px gray; */
     border-radius: 10px;
@@ -851,18 +857,20 @@ nav{
     margin-left: 10px;
     margin-top: 10px;
     /* border: 2px solid brown; */
-    height: 110px;
+    height: 90px;
     width: 430px;
 }
 .div1_order0{
+    height: 30px;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid blue; */
+    align-items: center;
 }
 .para_10{
     color: #20033a;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
 }
 #dots0{
     color: #bdb7b7;
@@ -871,7 +879,7 @@ nav{
 .div2_order0{
     display: flex;
     align-items: center;
-    height: 25px;
+    height: 20px;
     /* border: 2px solid blue; */
     gap: 5px;
 }
@@ -895,7 +903,7 @@ nav{
 #car0{
     position: absolute;
     top: 5px;
-    right: 7px;
+    right: 5px;
     color: white;
 }
 .radius50{
@@ -912,7 +920,7 @@ nav{
     border-radius: 50%;
 }
 .div3_order0{
-    height: 20px;
+    height: 15px;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
@@ -927,7 +935,7 @@ nav{
     font-size: 10px;
 }
 .div4_order0{
-    height: 30px;
+    height: 20px;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
@@ -943,7 +951,7 @@ nav{
 }
 .map3{
     width: 450px;
-    height: 130px;
+    height: 110px;
     border: 1px solid #848484;
     /* box-shadow: 2px 2px 15px gray; */
     border-radius: 10px;
@@ -953,18 +961,20 @@ nav{
     margin-left: 10px;
     margin-top: 10px;
     /* border: 2px solid brown; */
-    height: 110px;
+    height: 90px;
     width: 430px;
 }
 .div1_order00{
+    height: 30px;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid blue; */
+    align-items: center;
 }
 .para_100{
     color: #20033a;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
 }
 #dots00{
     color: #bdb7b7;
@@ -973,7 +983,7 @@ nav{
 .div2_order00{
     display: flex;
     align-items: center;
-    height: 25px;
+    height: 20px;
     /* border: 2px solid blue; */
     gap: 5px;
 }
@@ -1022,7 +1032,7 @@ nav{
 #car00{
     position: absolute;
     top: 5px;
-    right: 7px;
+    right: 5px;
     color: white;
 }
 .radius700{
@@ -1033,7 +1043,7 @@ nav{
     border-radius: 50%;
 } 
 .div3_order00{
-    height: 20px;
+    height: 15px;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
@@ -1048,7 +1058,7 @@ nav{
     font-size: 10px;
 }
 .div4_order00{
-    height: 30px;
+    height: 20px;
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
@@ -1065,7 +1075,7 @@ nav{
 .floor_4{
     width: 100%;
     height: 500px;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     justify-content: space-around;
 }
@@ -1159,5 +1169,29 @@ nav{
     position: absolute;
     left: 15px;
     color: #20033a;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+.dash_button2:active{
+    background-color: #e1dede;
+    border: #e1dede;
+    border-radius: 10px;
+#request{
+    color: #7013c6;
+    }
+.dash_para2{
+    color: #7013c6;
+}
+}
+
+.dash_button3:active{
+    background-color: #e1dede;
+    border: #e1dede;
+    border-radius: 10px;
+#budgets{
+    color: #7013c6;
+    }
+.dash_para3{
+    color: #7013c6;
+}
 }
