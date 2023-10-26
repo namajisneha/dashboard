@@ -149,6 +149,7 @@ nav{
     align-items: center;
     display: flex;
     gap: 1vw;
+    cursor: pointer;
 }
 #window{
     margin-left: 20px;
@@ -170,6 +171,7 @@ nav{
     display: flex;
     gap: 1vw;
     background-color: none;
+    cursor: pointer;
 }
 #request{
     margin-left: 20px;
@@ -191,6 +193,7 @@ nav{
     display: flex;
     gap: 1vw;
     background-color: none;
+    cursor: pointer;
 }
 #budgets{
     margin-left: 20px;
