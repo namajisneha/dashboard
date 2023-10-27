@@ -1104,7 +1104,7 @@ nav{
 .floor_4{
     width: 100%;
     height: 500px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
 }
