@@ -1,0 +1,20 @@
+<svg width="40" height="125" viewBox="0 0 40 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="125" fill="#E5E5E5"/>
+<g id="Admin Dashboard">
+<path d="M-698 -2053C-698 -2054.1 -697.105 -2055 -696 -2055H894C895.105 -2055 896 -2054.1 896 -2053V535C896 536.105 895.105 537 894 537H-696C-697.105 537 -698 536.104 -698 535V-2053Z" fill="#D3D3D3"/>
+<g id="Admin Dashboard_2" clip-path="url(#clip0_2082_6113)">
+<rect width="1438" height="2218" transform="translate(-644 -1978)" fill="#F5F6FA"/>
+<rect id="Rectangle 5793" x="-348" y="-246" width="702" height="441" rx="10" fill="white"/>
+<path id="Vector 60" d="M-267 -157V130H295" stroke="#C2C2C2"/>
+<g id="Group">
+<path id="Vector" d="M0.104126 0H39.3803V125H0.104126V0Z" fill="#6418C3"/>
+</g>
+</g>
+<path d="M-696 -2054H894V-2056H-696V-2054ZM895 -2053V535H897V-2053H895ZM894 536H-696V538H894V536ZM-697 535V-2053H-699V535H-697ZM-696 536C-696.552 536 -697 535.552 -697 535H-699C-699 536.657 -697.657 538 -696 538V536ZM895 535C895 535.552 894.552 536 894 536V538C895.657 538 897 536.657 897 535H895ZM894 -2054C894.552 -2054 895 -2053.55 895 -2053H897C897 -2054.66 895.657 -2056 894 -2056V-2054ZM-696 -2056C-697.657 -2056 -699 -2054.66 -699 -2053H-697C-697 -2053.55 -696.552 -2054 -696 -2054V-2056Z" fill="black" fill-opacity="0.1"/>
+</g>
+<defs>
+<clipPath id="clip0_2082_6113">
+<rect width="1438" height="2218" fill="white" transform="translate(-644 -1978)"/>
+</clipPath>
+</defs>
+</svg>

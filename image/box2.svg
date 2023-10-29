@@ -1,0 +1,20 @@
+<svg width="40" height="74" viewBox="0 0 40 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="74" fill="#E5E5E5"/>
+<g id="Admin Dashboard">
+<path d="M-498 -2105C-498 -2106.1 -497.105 -2107 -496 -2107H1094C1095.1 -2107 1096 -2106.1 1096 -2105V483C1096 484.105 1095.1 485 1094 485H-496C-497.105 485 -498 484.104 -498 483V-2105Z" fill="#D3D3D3"/>
+<g id="Admin Dashboard_2" clip-path="url(#clip0_2082_6113)">
+<rect width="1438" height="2218" transform="translate(-444 -2030)" fill="#F5F6FA"/>
+<rect id="Rectangle 5793" x="-148" y="-298" width="702" height="441" rx="10" fill="white"/>
+<path id="Vector 60" d="M-67 -209V78H495" stroke="#C2C2C2"/>
+<g id="Group">
+<path id="Vector" d="M0.381958 0H39.6582V74H0.381958V0Z" fill="#6418C3"/>
+</g>
+</g>
+<path d="M-496 -2106H1094V-2108H-496V-2106ZM1095 -2105V483H1097V-2105H1095ZM1094 484H-496V486H1094V484ZM-497 483V-2105H-499V483H-497ZM-496 484C-496.552 484 -497 483.552 -497 483H-499C-499 484.657 -497.657 486 -496 486V484ZM1095 483C1095 483.552 1094.55 484 1094 484V486C1095.66 486 1097 484.657 1097 483H1095ZM1094 -2106C1094.55 -2106 1095 -2105.55 1095 -2105H1097C1097 -2106.66 1095.66 -2108 1094 -2108V-2106ZM-496 -2108C-497.657 -2108 -499 -2106.66 -499 -2105H-497C-497 -2105.55 -496.552 -2106 -496 -2106V-2108Z" fill="black" fill-opacity="0.1"/>
+</g>
+<defs>
+<clipPath id="clip0_2082_6113">
+<rect width="1438" height="2218" fill="white" transform="translate(-444 -2030)"/>
+</clipPath>
+</defs>
+</svg>
