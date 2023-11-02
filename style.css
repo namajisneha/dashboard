@@ -269,7 +269,7 @@ nav{
 .para_heading2{
     margin-left: 30PX;
     color: #7f7979;
-    font-size: 1.2vw;
+    font-size: 16px;
 }
 .change_period{
     margin-right: 20px;
@@ -295,7 +295,7 @@ nav{
     color: #7013c6;
 }
 .date_para{
-    font-size: 1.3vw;
+    font-size: 16px;
     color: #b2afaf;
 }
 #arr{
@@ -1448,6 +1448,25 @@ font-weight: 500;
     font-size: 20px;
     font-weight: 600;
 }
+.month_paraa{
+    color: #333;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+.moths_diva{
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid  #F0F0F0;
+    height: 40px;
+    display: flex;
+    width: 120px;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: default;
+    }
 .graph_hr{
     /* border: 2px solid red; */
     height: 400px;
@@ -1897,18 +1916,27 @@ font-weight: 500;
 
 
 .dash_button2:hover{
+    background-color: #ebe7e7;
+    border-radius: 10px;
     #request{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    color: #9f68d2;
+
     }
 .dash_para2{
-    font-size: 1.1vw;
+    font-size: 1vw;
+    color: #9f68d2;
 }
 }
 .dash_button3:hover{
+    background-color: #ebe7e7;
+    border-radius: 10px;
     #budgets{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    color: #9f68d2;
     }
 .dash_para3{
-    font-size: 1.1vw;
+    font-size: 1vw;
+    color: #9f68d2;
 }
 }

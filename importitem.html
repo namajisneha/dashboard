@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>frontend</title>
-    <link rel="stylesheet" href="viewrquest.css">
+    <link rel="stylesheet" href="importitem.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,8 +57,7 @@
                         <button class="dash_button2">
                             <i class="ri-chat-smile-fill" id="request"></i>
                             <h3 class="dash_para2">Request</h3>
-                        </button>
-                    </a>
+                        </button></a>
                     <button class="dash_button3">
                         <i class="ri-calendar-todo-fill" id="budgets"></i>
                         <h3 class="dash_para3">Budgets</h3>
@@ -139,7 +138,9 @@
                         </a>
                     </div>
                     <div>
+                        <a href="viewrwquest.html">
                         <h2 class="viereq"><i class="ri-arrow-right-s-line" id="lessthan_arrow1"></i>View Request</h2>
+                        </a>
                     </div>
                 </div>
                 <!--header end-->
@@ -198,25 +199,25 @@
                     </div>
                 </div>
                 <div class="order_linediv">
-                    <div class="order_linediv1">
-                        <h4 class="order_para"> Order line 04</h4>
-                    </div>
+                    <a href="viewrwquest.html">
+                        <div class="order_linediv1">
+                            <h4 class="order_para"> Order line 04</h4>
+                        </div>
+                    </a>
                     <div class="order_linediv2">
-                       <a href="items.html">
-                        <button class="add_but">
-                            <i class="ri-add-circle-fill" id="plus_icon"></i>
-                            <p class="add_para">Add items</p>
-                        </button>
-                       </a>
+                        <a href="">
+                            <button class="add_but">
+                                <i class="ri-add-circle-fill" id="plus_icon"></i>
+                                <p class="add_para">Add items</p>
+                            </button>
+                        </a>
                         <button class="add_but0">
                             <p class="add_para0">Add Custom Item</p>
                         </button>
-                        <a href="importitem.html">
-                            <button class="add_but00">
-                                <i class="ri-add-circle-fill" id="plus_icon00"></i>
-                                <p class="add_para00">Import Item</p>
-                            </button>
-                        </a>
+                        <button class="add_but00">
+                            <i class="ri-add-circle-fill" id="plus_icon00"></i>
+                            <p class="add_para00">Import Item</p>
+                        </button>
                     </div>
                 </div>
                 <div class="floor3">
@@ -414,17 +415,54 @@
                         </div>
                     </div>
                     <div class="submit_div">
-                        <a href="requestsuubtmit.html">
                         <button class="sub_para">Submit</button>
-                        </a>
                     </div>
                     <div class="submit_div">
                         <button class="sub_para0">Cancle</button>
                     </div>
+
+
                 </div>
+
+
+
+
+                <div class="items_main_div">
+                    <div class="ite_heading">
+                        <p class="ite_para">Import Item</p>
+                        <i class="ri-close-circle-fill" id="close_ico"></i>
+                    </div>
+                    <hr class="hr1">
+                    <div class="head2_div">
+                        <p class="Downlaod">Download Import file Template</p>
+                    </div>
+                    <div class="head3_button">
+                        <button class="dow_bt">
+                            Download
+                        </button>
+                    </div>
+                    <div class="head4_div">
+                        <p class="upload">Upload the Update File</p>
+                    </div>
+                    <div class="head5_div">
+                        <img src="image/downexlshape.svg" class="shape" alt="">
+                        <img src="image/exlfile.svg"class="exlfile" alt="">
+                        <img src="image/ellipseexl.svg" class="elliexl" alt="">
+                        <p class="drag"> Drag and Drop file to Upload </p>
+                        <p class="draga"> or</p>
+                        <button class="dow_btu">
+                           Select file to Upload
+                        </button>
+                    </div>
+                    <br><br><br>
+                    <hr>
+                    <div class="upcan">
+                        <button class="cancle_but">cancle</button>
+                        <button class="cancle_buta">Upload</button>
+                    </div>
+                </div>
+                <!--main content end-->
             </div>
-            <!--main content end-->
-        </div>
     </main>
 </body>
 

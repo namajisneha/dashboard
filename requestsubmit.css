@@ -264,6 +264,7 @@ nav{
     /* justify-content: space-between; */
     text-align: center;
     align-items: center;
+    position: relative;
 }
 .dash_heading2{
     margin-left: 30PX;
@@ -276,8 +277,50 @@ nav{
 .viereq{
     color: #7013c6;
     font-size: 28px;
-    cursor: default;
+    cursor: pointer;
 }
+
+.can_but{
+    position: absolute;
+    top: 15px;
+    left: 715px;
+    height: 50px;
+    width: 110px;
+    background-color: red;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+.res_but{
+    position: absolute;
+    top: 15px;
+    left: 850px;
+    height: 50px;
+    width: 110px;
+    background-color: transparent;
+    border-radius: 7px;
+    color: #7013c6;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #7013c6;
+}
+.reap_but{
+    position: absolute;
+    top: 15px;
+    left: 984px;
+    height: 50px;
+    width: 200px;
+    background-color:#7013c6;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+
 .floor1{
     margin-top: 20px;
     margin-left: 20px;
@@ -286,134 +329,135 @@ nav{
     background-color: white;
     border-radius: 5px;
     /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    /* display: flex; */
+    position: relative;
 }
-.input_line1{
-    width: 100%;
-    height: 100px;
-    /* border: 2px solid tomato; */
-    display: flex;
-    justify-content: space-between;
-}
-.date{
-    margin-left: 20px;
-    /* border: 2px solid black; */
-    height: 100px;
-    width: 750px;
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 50px;
-    align-items: center;
-}
-.Desired_date{
-    font-size: 20px;
-    color: #625b5b;
-    margin-left: 25px;
-}
-.date_button{
-    width: 300px;
-    height: 70px;
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #F5F5F5;
-    /* margin-right: 50px; */
-    cursor: pointer;
-}
-.ddmmyy{
-    margin-left: 20px;
-    font-size: 16px;
-    color: #625b5b;
-}
-#calender{
+.req_para{
     font-size: 28px;
-    color: #7013c6;
-    margin-right: 20px;
+    font-weight: 6oo;
+    position: absolute;
+    left: 30px;
+    top: 10px;
 }
-.sel{
-    margin-left: px;
-    height: 70px;
-    width: 300px;
-    background-color: #F5F5F5;
-    border: none;
-    border-radius: 10px;
-    border-right: 16px solid transparent;
+.sta,.req_nam,.req_ema,.cre_dat,.dep,.loc,.deli_dat,.req_typ,.tot,.fin_app{
+    color: #727272;
     font-size: 18px;
-    cursor: pointer;
+    font-weight: 550;
 }
-.dates{
-    margin-left: 20px;
-    /* border: 2px solid black; */
-    height: 100px;
-    width: 750px;
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 50px;
-    align-items: center;
+.sta{
+    position: absolute;
+    top: 70px;
+    left: 60px;
 }
-.Desired_dates{
-    font-size: 20px;
-    color: #625b5b;
-    margin-left: 25px;
+.req_nam{
+    position: absolute;
+    top: 70px;
+    left: 270px;
 }
-.sels{
-    margin-left:45px;
-    height: 70px;
-    width: 300px;
-    background-color: #F5F5F5;
+.req_ema{
+    position: absolute;
+    top: 70px;
+    left: 570px;
+}
+.cre_dat{
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+.pen_buu{
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
     border: none;
-    border-radius: 10px;
-    border-right: 16px solid transparent;
+    background-color: rgb(240, 212, 187);
+    font-size: 16px;
+    color: orange;
+    font-weight: 550;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.jam_nam,.jam_ema,.jam_dat,.tec,.new,.dat,.prod,.amt,.john_smi{
     font-size: 18px;
-    cursor: pointer;
+    color: black;
 }
-.input_line3{
-    width: 100%;
-    height: 150px;
-    /* border: 2px solid tomato; */
+.jam_nam{
+    position: absolute;
+    top: 110px;
+    left: 270px;
 }
-.date0{
-    margin-left: 20px;
-    /* border: 2px solid black; */
-    height: 150px;
-    width: 1138px;
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 50px;
-    /* align-items: center; */
+.jam_ema{
+    position: absolute;
+    top: 110px;
+    left: 570px;
 }
-.Desired_date0{
-    font-size: 20px;
-    color: #625b5b;
-    margin-top: 50px;
-    margin-left: 25px;
+.jam_dat{
+    position: absolute;
+    top: 110px;
+    left: 900px;
 }
-.date_button0{
-    margin-top: 20px;
-    /* margin-left: 85px; */
-    width: 880px;
-    height: 110px;
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #F5F5F5;
-    cursor: pointer;
+.dep{
+    position: absolute;
+    top: 180px;
+    left: 60px;
 }
-.ddmmyy00{
-    margin-left: 20px;
-    font-size: 18px;
-    /* color: #625b5b; */
+.loc{
+    position: absolute;
+    top: 180px;
+    left: 270px;
+}
+.deli_dat{
+    position: absolute;
+    top: 180px;
+    left: 570px;
+}
+.req_typ{
+    position: absolute;
+    left: 900px;
+    top: 180px;
+}
+.tec{
+    position: absolute;
+    top: 220px;
+    left: 60px;
+}
+.new{
+    position: absolute;
+    top: 220px;
+    left: 270px;
+}
+.dat{
+    position: absolute;
+    top: 220px;
+    left: 570px;
+}
+.prod{
+    position: absolute;
+    left: 900px;
+    top: 220px;
+}
+.tot{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+}
+.amt{
+    position: absolute;
+    top: 320px;
+    left: 60px;
+}
+.fin_app{
+    position: absolute;
+    top: 280px;
+    left: 270px;
+}
+.john_smi{
+    position: absolute;
+    top: 320px;
+    left: 270px;
 }
 
-.floor3{
-    /* border: 2px solid black; */
-}
+
 .order_linediv{
     height: 70px;
     /* border: 2px solid red; */
@@ -433,73 +477,8 @@ nav{
     font-size: 25px;
     font-weight: 600;
 }
-.order_linediv2{
-    width: 550px;
-    height: 50px;
-    margin-left: 30px;
-    /* border: 2px solid blue; */
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    gap: 30px;
-}
-.add_but{
-    width: 163px;
-    height: 50px;
-    border-radius: 7px;
-    background: #6418C3;
-    border: none;
-    color: white;
-    display: flex;
-    position: relative;
-}
-#plus_icon{
-    position: absolute;
-    top: 14px;
-    left: 20px;
-    font-size: 20px;
-}
-.add_para{
-    position: absolute;
-    font-size: 16px;
-    top: 15px;
-    left: 52px;
-}
-.add_but0{
-    width: 163px;
-    height: 50px;
-    border-radius: 7px;
-    border:2px solid #6418C3;
-    color: #6418C3;
-    display: flex;
-    position: relative;
-}
-.add_para0{
-    position: absolute;
-    font-size: 16px;
-    top: 15px;
-    left: 20px;
-}
-.add_but00{
-    width: 163px;
-    height: 50px;
-    border-radius: 7px;
-    border:2px solid #6418C3;
-    color: #6418C3;
-    display: flex;
-    position: relative;
-}
-#plus_icon00{
-    position: absolute;
-    top: 14px;
-    left: 20px;
-    font-size: 20px;
-}
-.add_para00{
-    position: absolute;
-    font-size: 16px;
-    top: 15px;
-    left: 52px;
+.floor3{
+    /* border: 2px solid black; */
 }
 .names_list{
     margin-top: 20px;
@@ -943,32 +922,30 @@ font-weight: 600;
     top: 20px;
     left: 60px;
 }
-.submit_div{
-    /* margin-top: 30px; */
-    height: 90px;
+.not_div{
     /* border: 2px solid black; */
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
+    height: 330px;
 }
-.sub_para{
-    margin-top: 30px;
-    height: 50px;
-    width: 150px;
-    border-radius: 6px;
-    background: #6418C3;
-    color: white;
-    font-size: 22px;
-    font-weight: 550;
-    border: none;
+.Not{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #727272;
 }
-.sub_para0{
+.not_msg{
     margin-top: 10px;
-    height: 50px;
-    width: 150px;
-    border-radius: 6px;
-    background: #F82222;
-    color: white;
-    font-size: 22px;
-    border: none;
+    margin-left: 20px;
+    border: 2px solid rgb(192, 186, 186);
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 500px;
+    position: relative;
+}
+.need_para{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
