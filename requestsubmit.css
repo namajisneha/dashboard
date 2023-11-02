@@ -237,7 +237,14 @@ nav{
     cursor:default;
 }
 
-
+.dash_button:hover{
+    #window{
+    font-size: 1.3vw;
+    }
+.dash_para{
+    font-size: 1vw;
+}
+}
 .dash_button3:hover{
     background-color: #ebe7e7;
     border-radius: 10px;
