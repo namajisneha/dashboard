@@ -458,6 +458,7 @@ nav{
     border: none;
     color: white;
     display: flex;
+    cursor: pointer;
     position: relative;
 }
 #plus_icon{
@@ -495,6 +496,7 @@ nav{
     color: #6418C3;
     display: flex;
     position: relative;
+    cursor: pointer;
 }
 #plus_icon00{
     position: absolute;
@@ -968,6 +970,7 @@ font-weight: 600;
     font-size: 22px;
     font-weight: 550;
     border: none;
+    cursor: pointer;
 }
 .sub_para0{
     margin-top: 10px;
