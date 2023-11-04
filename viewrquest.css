@@ -174,7 +174,8 @@ nav{
     margin-left: 40px;
     width: 17vw;
     padding: 20px;
-    background-color: transparent;
+    background-color: #e1dede;
+    border-radius: 10px;
     border: none;
     text-align: center;
     align-items: center;
@@ -1223,7 +1224,7 @@ font-weight: 600;
     height: 50px;
     width: 150px;
     border-radius: 6px;
-    background: #F82222;
+    background: #ff4545;
     color: white;
     font-size: 22px;
     border: none;

@@ -174,8 +174,9 @@ nav{
     margin-left: 40px;
     width: 17vw;
     padding: 20px;
-    background-color: transparent;
     border: none;
+    border-radius: 10px;
+    background-color: #e1dede;
     text-align: center;
     align-items: center;
     display: flex;
@@ -499,7 +500,7 @@ nav{
 }
 .content_container{
     /* border: 2px solid blue; */
-    width: 1209px;
+    width: 100%;
     background-color: #f1f5f6;
 }
 .request_div{
