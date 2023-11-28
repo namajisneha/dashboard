@@ -175,12 +175,13 @@ nav{
     width: 17vw;
     padding: 20px;
     border: none;
+    border-radius: 10px;
+    background-color: #e1dede;
     text-align: center;
     align-items: center;
     display: flex;
     gap: 1vw;
-    border-radius: 10px;
-    background-color: #e1dede;
+    background-color: none;
     cursor: pointer;
 }
 #request{
@@ -390,6 +391,8 @@ nav{
     color: #4b4747;
     cursor:default;
 }
+
+
 .dash_button:hover{
     background-color: #ebe7e7;
     border-radius: 10px;
@@ -404,15 +407,11 @@ nav{
 }
 }
 .dash_button3:hover{
-    background-color: #ebe7e7;
-    border-radius: 10px;
     #budgets{
     font-size: 1.3vw;
-    color: #9f68d2;
     }
 .dash_para3{
     font-size: 1vw;
-    color: #9f68d2;
 }
 }
 .dash_button3a:hover{
@@ -497,23 +496,6 @@ nav{
 .dash_para3c{
     font-size: 1vw;
     color: #9f68d2;
-}
-}
-
-.dash_button:hover{
-    #window{
-    font-size: 1.3vw;
-    }
-.dash_para{
-    font-size: 1vw;
-}
-}
-.dash_button3:hover{
-    #budgets{
-    font-size: 1.3vw;
-    }
-.dash_para3{
-    font-size: 1vw;
 }
 }
 .content_container{
@@ -689,6 +671,7 @@ nav{
     font-size: 30px;
     color: orange;
 }
+
 .card_1000{
     width: 270px;
     height: 120px;
@@ -757,10 +740,162 @@ nav{
     right: 185px;
     top: 10px;
 }
-
+.filterdiv{
+    display: none;
+}
+.filter_hid{
+    height: 260px;
+    width: 100%;
+    border: 2px solid #7013c6;
+}
+.serach_filter_buttona{
+    margin-left: 17px;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    color: #7013c6;
+    font-size: 18px;
+    border: transparent;
+    /* border: none; */
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+}
+#filla{
+    font-size: 24px;
+    position: absolute;
+    right: 135px;
+    top: 10px;
+    transform: rotate(180deg);
+}
+.head_div{
+    height: 60px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dat_div{
+    height: 50px;
+    width: 250px;
+    /* border: 2px solid black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.dat_para{
+    position: absolute;
+    left: 30px;
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dat_diva{
+    height: 50px;
+    width: 250px;
+    /* border: 2px solid black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.dat_paraa{
+    position: absolute;
+    /* left: 40px; */
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dat_but_div{
+    height: 65px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.dat_bu{
+    position: absolute;
+    left: 30px;
+    height: 50px;
+    width: 230px;
+    /* border: 2px solid black; */
+    border: none;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.data_para{
+    position: absolute;
+    bottom: 11px;
+    left: 10px;
+    color: #727272;
+    font-size: 18px;
+    font-weight: 500;
+}
+#cal_ic{
+    position: absolute;
+    bottom:1px;
+    left:170px;
+    color: #7013c6;
+    font-size:22px;
+}
+.dat_bua{
+    /* margin-left: 30px; */
+    position: absolute;
+    right: 20px;
+    /* left: 30px; */
+    height: 50px;
+    width: 230px;
+    /* border: 2px solid black; */
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.data_paraa{
+    position: absolute;
+    bottom: 11px;
+    left: 10px;
+    color: #727272;
+    font-size: 18px;
+    font-weight: 500;
+}
+#cal_ica{
+    position: absolute;
+    bottom:2px;
+    left:170px;
+    color: #727272;
+    font-size:24px;
+}
+.sea_butt{
+    /* border: 2px solid black; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub_para{
+    /* margin-top: 30px; */
+    height: 50px;
+    width: 150px;
+    border-radius: 6px;
+    background: #6418C3;
+    color: white;
+    font-size: 22px;
+    font-weight: 550;
+    border: none;
+}
 
 .names_div{
     /* border: 2px solid black; */
+    /* transition:   3s ease-in-out 0.2; */
+    /* cursor: pointer; */
+}
+.namestran{
+    transition-property: margin-top ;
+    transition-duration: 10s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 5s;
 }
 .content_names{
     width: 100%;
