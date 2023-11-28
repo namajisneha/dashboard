@@ -67,6 +67,7 @@ btn2.addEventListener('click', () => {
 
 
 let btn3= document.querySelector('.chat_file_btn2')
+let btn4= document.querySelector('.chat_file_btna')
 let link=document.querySelector('.main_long_div_links')
 let file=document.querySelector('.chat_heading4')
 
@@ -75,4 +76,9 @@ link.style.display ="none"
 btn3.addEventListener('click',()=>{
     file.style.display="none"
     link.style.display ="block"
+})
+
+btn4.addEventListener('click',()=>{
+    link.style.display ="none"
+    file.style.display="block"
 })
