@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend</title>
+    <link rel="stylesheet" href="kanban.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&family=Lato:ital,
+                wght@1,300&family=Oswald:wght@200&family=Poppins:ital,wght@0,400;1,300&family=Roboto+Mono:ital@1&family
+                =Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&family=
+                Inter&family=Lato:ital,wght@1,300&family=Oswald:wght@200&family=Poppins:ital,wght@0,400;1,3
+                00&family=Roboto+Mono:ital@1&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&family=Inter&fa
+            mily=Lato:ital,wght@1,300&family=Oswald:wght@200&family=Poppins:ital,wght@0,400;1,300&family=Roboto
+            +Mono:ital@1&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div class="header_div">
+            <div>
+                <div class="logo">
+                    <h1>SYNECT<span>I</span>KS</h1>
+                </div>
+            </div>
+            <div class="container">
+                <form action="" class="form1">
+                    <label for="search"></label>
+                    <i class="ri-search-line" id="search_icon"></i>
+                    <input type="text" name="search" class="search_form" placeholder="Search by anything">
+                </form>
+                <div class="icons">
+                    <i class="ri-question-fill" id="question"></i>
+                    <i class="ri-notification-fill" id="bell"></i>
+                    <div class="notification" id="noti">03</div>
+                    <div class="circle_image">
+                        <img src="image/shushat.jpg" class="shushat" alt="">
+                    </div>
+                    <i class="ri-arrow-down-s-fill" id="arrow_down"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header end-->
+    <!--main start-->
+    <main>
+        <div class="main_container">
+            <!--navigation start-->
+            <div>
+                <nav>
+                    <!--menu start-->
+                    <p class="menu">MENU</p>
+                    <a href="index.html"> <button class="dash_button">
+                            <i class="ri-microsoft-fill" id="window"></i>
+                            <h3 class="dash_para">Dashboard</h3>
+                        </button></a>
+                    <a href="request.html">
+                        <button class="dash_button2">
+                            <i class="ri-chat-smile-fill" id="request"></i>
+                            <h3 class="dash_para2">Request</h3>
+                        </button>
+                    </a>
+                    <a href="budeget.html">
+                        <button class="dash_button3">
+                            <i class="ri-calendar-todo-fill" id="budgets"></i>
+                            <h3 class="dash_para3">Budgets</h3>
+                        </button>
+                    </a>
+                    <a href="message.html">
+                        <button class="dash_button3a">
+                            <i class="ri-calendar-todo-fill" id="budgetsa"></i>
+                            <h3 class="dash_para3a">Message</h3>
+                        </button>
+                    </a>
+                    
+                    <button class="dash_button3aa">
+                        <i class="ri-calendar-todo-fill" id="budgetsaa"></i>
+                        <h3 class="dash_para3aa">Kanban</h3>
+                    </button>
+                    <button class="dash_button3aaa">
+                        <i class="ri-calendar-todo-fill" id="budgetsaaa"></i>
+                        <h3 class="dash_para3aaa">Calendar</h3>
+                    </button>
+                    <!--menu end-->
+                    <!--approval center start-->
+                    <p class="menu2">APPROVAL CENTER</p>
+                    <button class="dash_button3b">
+                        <i class="ri-calendar-todo-fill" id="budgetsb"></i>
+                        <h3 class="dash_para3b">Purchase Reruisition</h3>
+                    </button>
+                    <button class="dash_button3bb">
+                        <i class="ri-calendar-todo-fill" id="budgetsbb"></i>
+                        <h3 class="dash_para3bb">Request for quotation</h3>
+                    </button>
+                    <button class="dash_button3bbb">
+                        <i class="ri-calendar-todo-fill" id="budgetsbbb"></i>
+                        <h3 class="dash_para3bb">Purchase Order</h3>
+                    </button>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Invoice</h3>
+                    </button>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Payment</h3>
+                    </button>
+                    <!--approval center end-->
+                    <!--supplier management start-->
+                    <p class="menu3">SUPPLIER MANAGEMENT</p>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Supplier</h3>
+                    </button>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Product</h3>
+                    </button>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Deliveries</h3>
+                    </button>
+                    <!--supplier management end-->
+                    <!--setting start-->
+                    <p class="menu4">SUPPLIER MANAGEMENT</p>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Setting</h3>
+                    </button>
+                    <button class="dash_button3c">
+                        <i class="ri-calendar-todo-fill" id="budgetsc"></i>
+                        <h3 class="dash_para3c">Help</h3>
+                    </button>
+
+                    <!--setting end-->
+                </nav>
+            </div>
+            <!--navigation end-->
+            <!--main content start-->
+            <div class="content_container">
+                <!--header start-->
+                <div class="request_div">
+                    <div>
+                        <h2 class="viereq">Kanban</h2>
+                    </div>
+                </div>
+                <!--header end-->
+                <div class="kanban_main_heading1">
+                    <form action="" class="form1ss">
+                        <label for="searchss"></label>
+                        <i class="ri-search-line" id="search_iconss"></i>
+                        <input type="text" name="searchss" class="search_formss" placeholder="Search your project here">
+                    </form>
+                    <div class="buttons_kanban">
+                        <div class="kan_img_para">
+                            <img src="image/kanban_icon.svg" class="kan_icon" alt="">
+                            <p class="kan_para_daysremaing" >05 days remaing</p>
+                        </div>
+                        <button class="add_task">Add Task</button>
+                        <button class="add_set">Add Step</button>
+                    </div>
+                </div>
+                <div class="kan_todo_prog">
+                    <div class="kan_todo">
+                        <div class="kan_todo_shot_div1"></div>
+                        <p class="kan_todo_para">To Do (21)</p>
+                    </div>
+                    <div class="kan_todo2">
+                        <div class="kan_todo_shot_div2"></div>
+                        <p class="kan_pro_para1">In Progress</p>
+                        <p class="kan_pro_para2">(06)</p>
+                    </div>
+                    <div class="kan_todo3">
+                        <div class="kan_todo_shot_div3"></div>
+                        <p class="kan_don_para1">Done</p>
+                        <p class="kan_don_para2">(02)</p>
+                    </div>
+                </div>
+                <div class="kan_carts_main_div1">
+                    <div class="kan_card1">
+                        <img src="image/kanban_icon.svg" class="kan_icon_card" alt="">
+                        <p class="kan_card_para">15 Aug 2022</p>
+                        <img src="image/kanban_dots.svg" class="kan_card_dots" alt="">
+                        <p class="kan_para2_card">Status</p>
+                        <button class="kan_btn_card_open">Open</button>
+                        <i class="ri-arrow-up-double-line"id="kan_card_arrup" ></i>
+                        <h1 class="kan_card_h1tag">Joining kits for new employees</h1>
+                        <div class="kan_card_para3">
+                            <p>Quo est mollitia impedit nostrum iure ratione consequatur Quo
+                                 est mollitia impedit nostrum iure ratione consequatur utQuo 
+                                 est mollitia impedit nostrum iure ratione consequatur ut</p>
+                        </div>
+                        <p class="kan_card_para4">Progress</p>
+                        <p class="kan_card_num">0%</p>
+                        <div class="kan_card_div"></div>
+                        <div class="kan_card_cirdiv">
+                            <img src="image/kanban_plus.svg" alt="">
+                        </div>
+                        <img src="image/kanban_im1.svg" class="kanban_img1" alt="">
+                        <img src="image/kanban_img2.svg" class="kanban_img2" alt="">
+                        <img src="image/kanban_img3.svg" class="kanban_img3" alt="">
+                        <p class="kan_card_para5">+ 2</p>
+                        <img src="image/kanban_save_icon.svg" class="kan_sav_icon" alt="">
+                        <p class="kan_card_para6">1</p>
+                        <img src="image/kanban_comment_icon.svg" class="kan_com_icon" alt="">
+                        <p class="kan_card_para7">1</p>
+                    </div>
+                    <div class="kan_card1a">
+                        <img src="image/kanban_icon.svg" class="kan_icon_carda" alt="">
+                        <p class="kan_card_paraa">15 Aug 2022</p>
+                        <img src="image/kanban_dots.svg" class="kan_card_dotsa" alt="">
+                        <p class="kan_para2_carda">Status</p>
+                        <button class="kan_btn_card_opena">Inprogress</button>
+                        <img src="image/kanban_equal.svg" class="kan_equ1" alt="">
+                        <img src="image/kanban_equal.svg" class="kan_equ2" alt="">
+                        <h1 class="kan_card_h1taga">Logistics support</h1>
+                        <div class="kan_card_para3a">
+                            <p>Quo est mollitia impedit nostrum iure ratione consequatur Quo
+                                 est mollitia impedit nostrum iure ratione consequatur utQuo 
+                                 est mollitia impedit nostrum iure ratione consequatur ut</p>
+                        </div>
+                        <!-- <p class="kan_card_para4a">Progress</p>
+                        <p class="kan_card_numa">0%</p>
+                        <div class="kan_card_diva"></div> -->
+                        <div class="kan_card_cirdiva">
+                            <img src="image/kanban_plus.svg" alt="">
+                        </div>
+                        <img src="image/kanban_im1.svg" class="kanban_img1a" alt="">
+                        <img src="image/kanban_img2.svg" class="kanban_img2a" alt="">
+                        <img src="image/kanban_img3.svg" class="kanban_img3a" alt="">
+                        <p class="kan_card_para5a">+ 2</p>
+                        <img src="image/kanban_save_icon.svg" class="kan_sav_icona" alt="">
+                        <p class="kan_card_para6">1</p>
+                        <img src="image/kanban_comment_icon.svg" class="kan_com_icona" alt="">
+                        <p class="kan_card_para7a">1</p>
+                    </div>
+                    <div class="kan_card1aa">
+                        <img src="image/kanban_icon.svg" class="kan_icon_cardaa" alt="">
+                        <p class="kan_card_paraaa">15 Aug 2022</p>
+                        <img src="image/kanban_dots.svg" class="kan_card_dotsaa" alt="">
+                        <p class="kan_para2_cardaa">Status</p>
+                        <button class="kan_btn_card_openaa">Done</button>
+                        <i class="ri-arrow-up-double-line"id="kan_card_arrupaa" ></i>
+                        <h1 class="kan_card_h1tagaa">Logistics support</h1>
+                        <div class="kan_card_para3aa">
+                            <p>Quo est mollitia impedit nostrum iure ratione consequatur Quo
+                                 est mollitia impedit nostrum iure ratione consequatur utQuo 
+                                 est mollitia impedit nostrum iure ratione consequatur ut</p>
+                        </div>
+                        <p class="kan_card_para4aa">Progress</p>
+                        <p class="kan_card_numaa">100%</p>
+                        <div class="kan_card_divaa"></div>
+                        <div class="kan_card_cirdivaa">
+                            <img src="image/kanban_plus.svg" alt="">
+                        </div>
+                        <img src="image/kanban_im1.svg" class="kanban_img1aa" alt="">
+                        <img src="image/kanban_img2.svg" class="kanban_img2aa" alt="">
+                        <img src="image/kanban_img3.svg" class="kanban_img3aa" alt="">
+                        <p class="kan_card_para5aa">+ 2</p>
+                        <img src="image/kanban_save_icon.svg" class="kan_sav_iconaa" alt="">
+                        <p class="kan_card_para6aa">1</p>
+                        <img src="image/kanban_comment_icon.svg" class="kan_com_iconaa" alt="">
+                        <p class="kan_card_para7aa">1</p>
+                    </div>
+                </div>
+                <div class="kan_carts_main_div2">
+                    <div class="kan_card1s">
+                        <img src="image/kanban_icon.svg" class="kan_icon_cards" alt="">
+                        <p class="kan_card_paras">15 Aug 2022</p>
+                        <img src="image/kanban_dots.svg" class="kan_card_dotss" alt="">
+                        <p class="kan_para2_cards">Status</p>
+                        <button class="kan_btn_card_opens">Open</button>
+                        <i class="ri-arrow-up-double-line"id="kan_card_arrups" ></i>
+                        <h1 class="kan_card_h1tags">Joining kits for new employees</h1>
+                        <div class="kan_card_para3s">
+                            <p>Quo est mollitia impedit nostrum iure ratione consequatur Quo
+                                 est mollitia impedit nostrum iure ratione consequatur utQuo 
+                                 est mollitia impedit nostrum iure ratione consequatur ut</p>
+                        </div>
+                        <p class="kan_card_para4s">Progress</p>
+                        <p class="kan_card_nums">0%</p>
+                        <div class="kan_card_divs"></div>
+                        <div class="kan_card_cirdivs">
+                            <img src="image/kanban_plus.svg" alt="">
+                        </div>
+                        <img src="image/kanban_im1.svg" class="kanban_img1s" alt="">
+                        <img src="image/kanban_img2.svg" class="kanban_img2s" alt="">
+                        <img src="image/kanban_img3.svg" class="kanban_img3s" alt="">
+                        <p class="kan_card_para5s">+ 2</p>
+                        <img src="image/kanban_save_icon.svg" class="kan_sav_icons" alt="">
+                        <p class="kan_card_para6s">1</p>
+                        <img src="image/kanban_comment_icon.svg" class="kan_com_icons" alt="">
+                        <p class="kan_card_para7s">1</p>
+                    </div>
+                    <div class="kan_card1a">
+                        <img src="image/kanban_icon.svg" class="kan_icon_carda" alt="">
+                        <p class="kan_card_paraa">15 Aug 2022</p>
+                        <img src="image/kanban_dots.svg" class="kan_card_dotsa" alt="">
+                        <p class="kan_para2_carda">Status</p>
+                        <button class="kan_btn_card_opena">Inprogress</button>
+                        <img src="image/kanban_equal.svg" class="kan_equ1" alt="">
+                        <img src="image/kanban_equal.svg" class="kan_equ2" alt="">
+                        <h1 class="kan_card_h1taga">Logistics support</h1>
+                        <div class="kan_card_para3a">
+                            <p>Quo est mollitia impedit nostrum iure ratione consequatur Quo
+                                 est mollitia impedit nostrum iure ratione consequatur utQuo 
+                                 est mollitia impedit nostrum iure ratione consequatur ut</p>
+                        </div>
+                        <p class="kan_card_para4a">Progress</p>
+                        <p class="kan_card_numaaa">43%</p>
+                        <div class="kan_card_divaaa">
+                            <div class="kan_card_divaaa2"></div>
+                        </div>
+                        <div class="kan_card_cirdiva">
+                            <img src="image/kanban_plus.svg" alt="">
+                        </div>
+                        <img src="image/kanban_im1.svg" class="kanban_img1a" alt="">
+                        <img src="image/kanban_img2.svg" class="kanban_img2a" alt="">
+                        <img src="image/kanban_img3.svg" class="kanban_img3a" alt="">
+                        <p class="kan_card_para5a">+ 2</p>
+                        <img src="image/kanban_save_icon.svg" class="kan_sav_icona" alt="">
+                        <p class="kan_card_para6">1</p>
+                        <img src="image/kanban_comment_icon.svg" class="kan_com_icona" alt="">
+                        <p class="kan_card_para7a">1</p>
+                    </div>
+                </div>
+                <div class="kanban_main_div3">
+                        <div class="kanban_card6"></div>
+                        <div class="kanban_card6_div1">
+                            <img src="image/kanban_plus.svg" class="kan_pluu" alt="">
+                           <p>Add Task</p> </div>
+
+
+                        <div class="kanban_card6s"></div>
+                        <div class="kanban_card6_div1s">
+                            <img src="image/kanban_plus.svg" class="kan_pluus" alt="">
+                           <p>Add Task</p> </div>
+
+
+                           <div class="kan_card1sd">
+                            <img src="image/kanban_icon.svg" class="kan_icon_cardsd" alt="">
+                            <p class="kan_card_parasd">15 Aug 2022</p>
+                            <img src="image/kanban_dots.svg" class="kan_card_dotssd" alt="">
+                            <p class="kan_para2_cardsd">Status</p>
+                            <button class="kan_btn_card_opensd">Open</button>
+                            <i class="ri-arrow-up-double-line"id="kan_card_arrupsd" ></i>
+                            <h1 class="kan_card_h1tagsd">Joining kits for new employees</h1>
+                            <div class="kan_card_para3sd">
+                                <p>Quo est mollitia impedit nostrum iure ratione consequatur Quo
+                                     est mollitia impedit nostrum iure ratione consequatur utQuo 
+                                     est mollitia impedit nostrum iure ratione consequatur ut</p>
+                            </div>
+                            <p class="kan_card_para4sd">Progress</p>
+                            <p class="kan_card_numsd">0%</p>
+                            <div class="kan_card_divsd"></div>
+                            <div class="kan_card_cirdivsd">
+                                <img src="image/kanban_plus.svg" alt="">
+                            </div>
+                            <img src="image/kanban_im1.svg" class="kanban_img1sd" alt="">
+                            <img src="image/kanban_img2.svg" class="kanban_img2sd" alt="">
+                            <img src="image/kanban_img3.svg" class="kanban_img3sd" alt="">
+                            <p class="kan_card_para5sd">+ 2</p>
+                            <img src="image/kanban_save_icon.svg" class="kan_sav_iconsd" alt="">
+                            <p class="kan_card_para6sd">1</p>
+                            <img src="image/kanban_comment_icon.svg" class="kan_com_iconsd" alt="">
+                            <p class="kan_card_para7sd">1</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
